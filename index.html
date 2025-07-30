@@ -67,10 +67,10 @@
   <!-- Contact section -->
   <section id="contact" class="section contact">
     <h2 class="section-title fade-up">Get in Touch</h2>
-    <form id="contactForm" class="fade-up" onsubmit="event.preventDefault(); alert('Thank you for reaching out!'); this.reset();">
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Email Address" required>
-      <textarea placeholder="Message" required></textarea>
+    <form id="contactForm" class="fade-up" action="mailto:omtodkari@users.noreply.github.com" method="POST" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+      <textarea name="message" placeholder="Message" required></textarea>
       <button type="submit" class="btn">Send Message</button>
     </form>
   </section>
