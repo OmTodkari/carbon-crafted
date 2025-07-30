@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carbon Crafted</title>
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts for elegant typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Hero section with background image -->
+  <header class="hero">
+    <nav class="navbar fade-up">
+      <div class="logo">Carbon Crafted</div>
+      <ul class="menu">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content fade-up">
+      <h1>Crafting a Sustainable Future</h1>
+      <p>Carbon Crafted brings innovation and design together for a greener world.</p>
+      <a href="#about" class="btn">Learn More</a>
+    </div>
+  </header>
+
+  <!-- Features section -->
+  <section id="features" class="section features">
+    <h2 class="section-title fade-up">Features</h2>
+    <div class="feature-grid">
+      <div class="feature-item fade-up">
+        <div class="icon">🌿</div>
+        <h3>Eco Design</h3>
+        <p>We design products with the environment in mind, using sustainable materials and processes.</p>
+      </div>
+      <div class="feature-item fade-up">
+        <div class="icon">💡</div>
+        <h3>Innovation</h3>
+        <p>We fuse creativity and technology to create solutions that reduce carbon footprint.</p>
+      </div>
+      <div class="feature-item fade-up">
+        <div class="icon">🌍</div>
+        <h3>Global Impact</h3>
+        <p>Our mission is to inspire a global shift toward sustainability and responsible living.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About section -->
+  <section id="about" class="section about">
+    <div class="about-text fade-up">
+      <h2>About Carbon Crafted</h2>
+      <p>Carbon Crafted is dedicated to creating sustainable products that are not only beautiful but also responsible.
+        Our team works tirelessly to innovate new ways to reduce carbon emissions and promote a greener lifestyle.
+      </p>
+    </div>
+    <div class="about-image fade-up">
+      <img src="images/about.png" alt="Abstract nature illustration">
+    </div>
+  </section>
+
+  <!-- Contact section -->
+  <section id="contact" class="section contact">
+    <h2 class="section-title fade-up">Get in Touch</h2>
+    <form id="contactForm" class="fade-up" onsubmit="event.preventDefault(); alert('Thank you for reaching out!'); this.reset();">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Carbon Crafted. All rights reserved.</p>
+  </footer>
+
+  <!-- Script to handle animations -->
+  <script src="script.js"></script>
+</body>
+</html>
